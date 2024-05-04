@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:ital,wght@200;300;400;500;600;700&display=swap");
+
+.outer{
+    display: flex;
+    background: #fbf8f6;
+    height: 700px;
+    width: 100%;
+}
+.space{
+    padding: 150px 10px 50px 50px;
+}
+.space1{
+    padding: 200px 10px 50px 120px;
+}
+.inner{
+    background: #fff;
+    width: 75%;
+    border-top-left-radius: 40px;
+}
+header{
+    padding-top: 20px;
+    float: right;
+}
+input{
+    padding: 15px;
+    margin: 20px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 16px;
+}
+input:focus{
+    outline:none;
+}
+#postcode{
+    padding: 10px;
+    width: 150px;
+    border: 1px solid;
+    border-radius:10px;
+}
+button{
+    float: right;
+    border-radius: 20px;
+    padding: 10px;
+    background: #2B2A2A;
+    color: #fff;
+    font-size: 16px;
+    width: 110px;
+}
+button:hover{
+    background: #585554;
+}
+footer{
+    margin-top: 100px;
+}
+select{
+    padding: 10px;
+    width: 150px;
+    border-radius:10px;
+}
+select:focus{
+    outline: none;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.options div{
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+}
+.options a{
+    text-decoration:none;
+    color: #737373;
+}
+.options div:hover{
+    background: #CBDECC;
+    border: 1px solid #184B1A;
+}

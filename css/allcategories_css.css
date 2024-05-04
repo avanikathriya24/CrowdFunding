@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:ital,wght@200;300;400;500;600;700&display=swap");
+#category{
+    background-color: #F5F0EE;
+    padding: 50px 200px;
+}
+
+#category .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#category .pro-container1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    margin: 50px 50px 10px 50px;
+}
+
+#category .pro-container1 img{
+    border-radius:50px
+}
+
+
+#category .pro{
+    width: 30%;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 10px 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+
+}
+
+#category .pro:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+
+#category .pro img{
+    width: 100%;
+}
+#category .pro .des{
+    text-align: start;
+    padding: 40px 0;
+}
+
+.about{
+    padding: 50px 200px;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap:  1rem;
+    margin-top: 1rem;
+}
+
+.about-img img{
+    width: 90%;
+}
+
+.about-text span{
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.about-text p{
+    margin: 0.5rem 0 1.4rem;
+}
+
+.about-text .btn{
+    padding: 10px 20px;
+    background: #474fa0;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.about-text .btn:hover{
+    background: var(--main-color);
+}

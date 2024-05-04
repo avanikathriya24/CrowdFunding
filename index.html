@@ -1,0 +1,246 @@
+<!--    TITLE: CROWDFUNDING WEBSITE
+        NAME: Kathiriya Avani Govindbhai
+        Enrollment No: 22002170110055
+        Branch: CE
+        Batch: A2
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/0f7f4a94dd.js" crossorigin="anonymous"></script>        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <title>Slide Show</title>
+
+    <link rel="stylesheet" href="css/charity_css.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--    navbar-->
+    <section id="header">
+    <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
+
+    <div>
+        <ul id="navbar">
+            <li class="dropdown1"><a href="allcategories.html">For Individuals</a>
+                <div class="dropdown-content1">
+                    <a href="#">Medical</a>
+                    <a href="#">Emergency</a>
+                    <a href="#">Education</a>
+                    <a href="#">Fundraiser</a>
+                    <a href="#">Nonprofit</a>
+                    <a href="allcategories.html">see all</a>
+
+                </div>
+            </li>
+            <li><a href="charity.html">For Charities</a></li>
+            <li><a href="works.html">How it works</a></li>
+            <li><a href="signIn.html">Sign in</a></li>
+            <li>
+                <a href="start.html">
+                    <button class="green">Start CrowdFund</button>
+                </a>
+            </li>
+            <a href="#" id="close"><i class="far fa-times"></i></a>
+
+        </ul>
+    </div>
+    <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+
+    </div>
+</section>
+<!-- carousal-->
+    <section>
+        <div>
+        <div class="arrow l" onclick="prev()">
+            <img src="img/l.png" alt="l">
+        </div>
+        <div class="slide slide-1">
+             <div class="caption">
+                 <h3>New York</h3>
+                 <p>We love the Big Apple!</p>
+             </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="caption">
+                <h3>Los Angeles</h3>
+                <p>LA is always so much fun!</p>
+            </div>
+       </div>
+       <div class="slide slide-3">
+            <div class="caption">
+                <h3>Bahar Dar</h3>
+                <p>Thank you, Bahar Dar!</p>
+            </div>
+       </div>
+       <div class="arrow r" onclick="next()">
+            <img src="img/r.png" alt="r">
+        </div>
+    </div>
+    </section>
+
+    <section id="campaign" >
+        <h3>Discover fundraisers inspired by what you care about</h3>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Happening Worldwide <i id="i1"class="fa-solid fa-caret-down" style="margin:0px 0px 0px 10px"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/campaign/edu.jpg" alt="">
+                <div class="des" style="margin: 0px 0px 0px 20px">
+                    <h5>To study further</h5>
+                    <div class="progress" style="margin-top:20px;margin-bottom:10px;margin-left-10px;">
+                        <div class="skill box1"></div>
+                    </div>
+                    <h6 style="text-align:left;">$12,000 raised</h6>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/campaign/p1.jpg" alt="">
+                <div class="des" style="margin: 0px 0px 0px 20px">
+                    <h5>Lets help our sister suffering with tumor</h5>
+                    <div class="progress" style="margin-top:20px;margin-bottom:10px;">
+                        <div class="skill box1"></div>
+                    </div>
+                    <h6 style="text-align:left;">$43,780 raised</h6>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/campaign/p2.jpg" alt="">
+                <div class="des" style="margin: 0px 0px 0px 20px">
+                    <h5>Hina lost parents in accident,help her for funeral</h5>
+                    <div class="progress" style="margin-top:20px;margin-bottom:10px;">
+                        <div class="skill box1"></div>
+                    </div>
+                    <h6 style="text-align:left;">₹10,000 raised</h6>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="feature">
+        <h3 style="margin:0px 0px 0px 20px;font-size:25px">Featured topics</h3>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/campaign/p3.jpg" alt="">
+                <div class="des" style="margin: 0px 0px 0px 20px">
+                    <h4>Make a difference with charity fundraising</h4>
+                    <p>The quick and easy way to raise money for the charities you care about.Choose a charity,launch your fundraiser and make a difference today.</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="img/campaign/p4.jpg" alt="">
+                <div class="des" style="margin: 0px 0px 0px 20px">
+                    <h4>How to fundraise to evacuate civilians from Gaza</h4>
+                    <p>Responses to frequently asked questions on how to fundraise for relief efforts and what may be required during Trust & Safety verification process</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- video-->
+    <section class="section-m1">
+        <h3 style="margin:0px 0px 0px 50px;font-size:25px">How GoFundMe works</h3>
+        <div class="section-m1">
+        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/v5wbODeVHC8?si=Vi4lERy4WJnpYP6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="green">
+        <div>
+            <p style="font-size:40px;">We've got you covered.</p>
+            <br>
+            <p style="font-size:40px";> GoFundMe is a trusted leader in online fundraising. With simple pricing and a team of Trust & Safety experts in your corner, you can raise money or make a donation with peace of mind.</p>
+        </div>
+    </section>
+
+    <section style="margin-bottom: 150px;"  class="section-m1">
+        <h3 style="margin:100px 0px 100px 50px;font-size:25px">Fundraise for anyone</h3>
+        <div class="section-m1">
+            <h2>Yourself</h2>
+            <p>Funds are delivered to your bank account for your own use</p>
+        </div>
+        <hr>
+        <div class="section-m1">
+            <h2>Friends and Family</h2>
+            <p>You'll invite a beneficial to receive funds or distribute them yourself</p>
+        </div>
+        <hr>
+        <div class="section-m1">
+            <h2>Charity</h2>
+            <p>Funds are delivered to your chosen charity for you</p>
+        </div>
+        <hr>
+    </section>
+
+    <hr>
+    <footer class="section-m1">
+        <div class="col">
+            <img class="logo" id="logo" src="img/logo.png" alt="">
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Fundraise for</h4>
+            <a href="#">Medical</a>
+            <a href="#">Emergency</a>
+            <a href="#">Memorial</a>
+            <a href="#">Education</a>
+            <a href="#">Charity</a>
+        </div>
+        <div class="col">
+            <h4>Learn more</h4>
+            <a href="#">How CrowdFunding Works</a>
+            <a href="#">Common questions</a>
+            <a href="#">Success stories</a>
+            <a href="#">Supported countries</a>
+            <a href="#">Charity fundraising</a>
+            <a href="#">Corporate fundraising</a>
+            <a href="#">Event fundraising</a>
+            <a href="#">Pricing</a>
+        </div>
+        <div class="col">
+            <h4>Resources</h4>
+            <a href="#">Help center</a>
+            <a href="#">Blog</a>
+            <a href="#">Press center</a>
+            <a href="#">Careers</a>
+            <a href="#">About CrowdFunding and Classy</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Playstore</p>
+            <div id="pay" class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+    </footer>
+
+    <script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>
